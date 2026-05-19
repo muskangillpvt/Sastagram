@@ -1,0 +1,242 @@
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\appsettings.Development.json
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\appsettings.json
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Sastagram.staticwebassets.endpoints.json
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Sastagram.exe
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Sastagram.deps.json
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Sastagram.runtimeconfig.json
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Sastagram.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Sastagram.pdb
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\AutoMapper.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\CloudinaryDotNet.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Humanizer.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Npgsql.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\System.CodeDom.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\backend\Sastagram\backend\Sastagram\obj\Debug\net8.0\Sastagram.csproj.AssemblyReference.cache
+D:\backend\Sastagram\backend\Sastagram\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\backend\Sastagram\backend\Sastagram\obj\Debug\net8.0\Sastagram.GeneratedMSBuildEditorConfig.editorconfig
+D:\backend\Sastagram\backend\Sastagram\obj\Debug\net8.0\Sastagram.AssemblyInfoInputs.cache
+D:\backend\Sastagram\backend\Sastagram\obj\Debug\net8.0\Sastagram.AssemblyInfo.cs
+D:\backend\Sastagram\backend\Sastagram\obj\Debug\net8.0\Sastagram.csproj.CoreCompileInputs.cache
+D:\backend\Sastagram\backend\Sastagram\obj\Debug\net8.0\Sastagram.MvcApplicationPartsAssemblyInfo.cs
+D:\backend\Sastagram\backend\Sastagram\obj\Debug\net8.0\Sastagram.MvcApplicationPartsAssemblyInfo.cache
+D:\backend\Sastagram\backend\Sastagram\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\backend\Sastagram\backend\Sastagram\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\backend\Sastagram\backend\Sastagram\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\backend\Sastagram\backend\Sastagram\obj\Debug\net8.0\scopedcss\bundle\Sastagram.styles.css
+D:\backend\Sastagram\backend\Sastagram\obj\Debug\net8.0\staticwebassets.build.json
+D:\backend\Sastagram\backend\Sastagram\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\backend\Sastagram\backend\Sastagram\obj\Debug\net8.0\staticwebassets.development.json
+D:\backend\Sastagram\backend\Sastagram\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\backend\Sastagram\backend\Sastagram\obj\Debug\net8.0\swae.build.ex.cache
+D:\backend\Sastagram\backend\Sastagram\obj\Debug\net8.0\Sastagram.csproj.Up2Date
+D:\backend\Sastagram\backend\Sastagram\obj\Debug\net8.0\Sastagram.dll
+D:\backend\Sastagram\backend\Sastagram\obj\Debug\net8.0\refint\Sastagram.dll
+D:\backend\Sastagram\backend\Sastagram\obj\Debug\net8.0\Sastagram.pdb
+D:\backend\Sastagram\backend\Sastagram\obj\Debug\net8.0\Sastagram.genruntimeconfig.cache
+D:\backend\Sastagram\backend\Sastagram\obj\Debug\net8.0\ref\Sastagram.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\appsettings.Development.json
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\appsettings.json
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Sastagram.staticwebassets.endpoints.json
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Sastagram.exe
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Sastagram.deps.json
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Sastagram.runtimeconfig.json
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Sastagram.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Sastagram.pdb
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\AutoMapper.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\BCrypt.Net-Next.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\CloudinaryDotNet.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Humanizer.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Npgsql.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\System.CodeDom.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\obj\Debug\net8.0\Sastagram.csproj.AssemblyReference.cache
+E:\volume D\hackclub\Sastagram\backend\Sastagram\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\volume D\hackclub\Sastagram\backend\Sastagram\obj\Debug\net8.0\Sastagram.GeneratedMSBuildEditorConfig.editorconfig
+E:\volume D\hackclub\Sastagram\backend\Sastagram\obj\Debug\net8.0\Sastagram.AssemblyInfoInputs.cache
+E:\volume D\hackclub\Sastagram\backend\Sastagram\obj\Debug\net8.0\Sastagram.AssemblyInfo.cs
+E:\volume D\hackclub\Sastagram\backend\Sastagram\obj\Debug\net8.0\Sastagram.csproj.CoreCompileInputs.cache
+E:\volume D\hackclub\Sastagram\backend\Sastagram\obj\Debug\net8.0\Sastagram.MvcApplicationPartsAssemblyInfo.cs
+E:\volume D\hackclub\Sastagram\backend\Sastagram\obj\Debug\net8.0\Sastagram.MvcApplicationPartsAssemblyInfo.cache
+E:\volume D\hackclub\Sastagram\backend\Sastagram\obj\Debug\net8.0\rjimswa.dswa.cache.json
+E:\volume D\hackclub\Sastagram\backend\Sastagram\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+E:\volume D\hackclub\Sastagram\backend\Sastagram\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+E:\volume D\hackclub\Sastagram\backend\Sastagram\obj\Debug\net8.0\scopedcss\bundle\Sastagram.styles.css
+E:\volume D\hackclub\Sastagram\backend\Sastagram\obj\Debug\net8.0\staticwebassets.build.json
+E:\volume D\hackclub\Sastagram\backend\Sastagram\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\volume D\hackclub\Sastagram\backend\Sastagram\obj\Debug\net8.0\staticwebassets.development.json
+E:\volume D\hackclub\Sastagram\backend\Sastagram\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\volume D\hackclub\Sastagram\backend\Sastagram\obj\Debug\net8.0\swae.build.ex.cache
+E:\volume D\hackclub\Sastagram\backend\Sastagram\obj\Debug\net8.0\Sastagram.csproj.Up2Date
+E:\volume D\hackclub\Sastagram\backend\Sastagram\obj\Debug\net8.0\Sastagram.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\obj\Debug\net8.0\refint\Sastagram.dll
+E:\volume D\hackclub\Sastagram\backend\Sastagram\obj\Debug\net8.0\Sastagram.pdb
+E:\volume D\hackclub\Sastagram\backend\Sastagram\obj\Debug\net8.0\Sastagram.genruntimeconfig.cache
+E:\volume D\hackclub\Sastagram\backend\Sastagram\obj\Debug\net8.0\ref\Sastagram.dll
