@@ -1,757 +1,320 @@
 # Sastagram
-Version: 1.0
 
-Prepared By:
-Muskan Gill
+A full-stack social media application built with React, ASP.NET Core, and PostgreSQL.
 
-Technology Stack:
-- ASP.NET Core Web API
-- React.js
-- PostgreSQL
-- Entity Framework Core
-- JWT Authentication
+Sastagram is a software engineering project designed to explore full-stack application development, REST API design, backend services, database integration, and authentication. The project separates the frontend interface from backend processing and persistent data storage.
 
-# 1. Executive Summary
+## Table of Contents
 
-Sastagram is a full-stack social media platform designed to demonstrate modern software engineering practices while providing users with a secure and scalable environment for sharing content and interacting with others.
-The purpose of this discovery phase is to define the product vision, identify user problems, document business requirements, and validate the technical feasibility before any implementation decisions are made.
-This document acts as the foundation for the project's architecture, development roadmap, and future scalability.
+- [Overview](#overview)
+- [Technology Stack](#technology-stack)
+- [Features](#features)
+- [Architecture](#architecture)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Configuration](#configuration)
+- [API Documentation](#api-documentation)
+- [Testing](#testing)
+- [Security Considerations](#security-considerations)
+- [Troubleshooting](#troubleshooting)
+- [Future Improvements](#future-improvements)
+- [Author](#author)
+- [License](#license)
 
-# 2. Problem Statement
+## Overview
 
-Most existing social media platforms are designed for mass audiences and include numerous unrelated features that increase complexity and reduce user focus.
-Developers and students often need a lightweight platform where they can:
-- Create personal profiles
-- Share updates
-- Upload images
-- Engage with other users
-- Learn how real social media platforms operat
-The objective of Sastagram is to provide these core capabilities through a clean architecture that prioritizes maintainability, security, and scalability.
+Sastagram follows a client–server architecture in which a React frontend communicates with an ASP.NET Core backend over HTTP. The backend processes application requests and uses PostgreSQL for persistent data storage.
 
-# 3. Vision Statement
+The repository is organised into two main applications:
 
-To build a production-ready social media platform that demonstrates enterprise software engineering principles while providing users with a secure, responsive, and enjoyable social networking experience.
+- **Frontend:** A React application developed using Vite.
+- **Backend:** An ASP.NET Core application written in C#.
 
-# 4. Business Objectives
+The backend includes controllers for authentication, posts, users, comments, stories, and notifications, alongside data-access, model, DTO, and service layers.
 
-The project aims to achieve the following objectives:
-• Build a scalable full-stack web application.
-• Demonstrate clean software architecture.
-• Implement secure authentication.
-• Provide efficient content management.
-• Support future feature expansion.
-• Follow modern software engineering standards.
+## Technology Stack
 
-# 5. Product Goals
+| Technology | Purpose |
+|---|---|
+| React | Frontend user interface |
+| Vite | Frontend development server and build tooling |
+| JavaScript | Frontend application development |
+| C# | Backend application development |
+| ASP.NET Core | Backend API and request handling |
+| PostgreSQL | Relational database |
+| Entity Framework Core | Database access and schema migrations |
+| JWT-related services | Token-based authentication functionality |
+| Git and GitHub | Version control and source-code hosting |
 
-Primary Goals
-- User registration
-- User login
-- Secure authentication
-- Create posts
-- Edit posts
-- Delete posts
-- Browse posts
-- User profiles
-- Responsive interface
+Additional dependencies and versions are defined in the frontend `package.json` and backend `Sastagram.csproj` files.
 
-Secondary Goals
-- Notifications
-- Direct messaging
-- Real-time updates
-- Search
-- Follow system
-- Story feature
-- Reels feature
+## Features
 
-Future Goals
-- AI-powered content recommendations
-- Video uploads
-- Live streaming
-- Mobile application
-- Multi-language support
+The repository contains implementation areas for the following functionality. The exact supported operations should be confirmed against the corresponding controllers and frontend components.
 
-# 6. Target Audience
+- **Authentication:** Authentication-related API operations and token services.
+- **Posts:** Backend operations related to posts.
+- **User management:** User-related API operations.
+- **Comments:** Backend functionality related to comments.
+- **Stories:** Backend functionality related to stories.
+- **Notifications:** Backend functionality related to notifications.
+- **Database integration:** PostgreSQL access through Entity Framework Core.
+- **Media handling:** A dedicated backend media service.
 
-Primary Users
-• University students
-Students who wish to connect with classmates, share updates, and build an online presence.
+Refer to the API reference and source code for the exact endpoints, supported operations, and authentication requirements.
 
-• Developers
-Developers interested in learning full-stack development or showcasing technical projects.
+## Architecture
 
-• Small Communities
-Groups requiring a lightweight social networking platform.
+At a high level, Sastagram uses the following request flow:
 
-# 7. User Personas
-
-Persona 1
-Name: Alex
-Age: 21
-Occupation: Computer Science Student
-Goals
-- Share projects
-- Connect with classmates
-- Build portfolio
-Pain Points
-- Existing platforms are distracting.
-- Difficult to organize technical content.
-
-Persona 2
-Name: Sarah
-Age: 26
-Occupation: Junior Software Engineer
-Goals
-- Network with developers
-- Share learning experiences
-- Publish technical articles
-Pain Points
-- Existing platforms are overloaded with advertisements.
-- Privacy concerns.
-
-# 8. User Needs
-Users should be able to:
-- Register securely.
-- Log in safely.
-- Update their profile.
-- Upload images.
-- Create posts.
-- View content.
-- Edit their own posts.
-- Delete their own posts.
-- Log out securely.
-
-# 9. Success Criteria
-
-The project will be considered successful if it satisfies the following objectives.
-Functional
-✓ Users can register.
-✓ Users can log in.
-✓ Users can publish posts.
-✓ Users can update posts.
-✓ Users can delete posts.
-✓ Users can browse posts.
-
-Technical
-✓ Secure authentication.
-✓ Responsive interface.
-✓ RESTful APIs.
-✓ Clean database design.
-✓ Proper error handling.
-
-Business
-✓ Easy to maintain.
-✓ Easy to scale.
-✓ Well documented.
-✓ Professional code quality.
-
-# 10. Functional Scope
-Included
-- Authentication
-- Authorization
-- User Profiles
-- Post Management
-- Image Upload
-- REST APIs
-- Database
-- Responsive Frontend
-
-Excluded
-- Live Chat
-- Video Streaming
-- Marketplace
-- Stories
-- Payments
-- AI Features
-
-# 11. Functional Requirements
-FR-01
-Users shall be able to register.
-
-FR-02
-Users shall be able to log in.
-
-FR-03
-Passwords shall be securely stored using hashing.
-
-FR-04
-Users shall receive JWT tokens after authentication.
-
-FR-05
-Authenticated users shall create posts.
-
-FR-06
-Users shall edit their own posts.
-
-FR-07
-Users shall delete their own posts.
-
-FR-08
-Users shall upload profile images.
-
-FR-09
-Users shall view public posts.
-
-FR-10
-Users shall log out securely.
-
-# 12. Non-Functional Requirements
-Performance
-API responses should be under 300 milliseconds under normal load.
-
-Scalability
-The architecture should support future horizontal scaling.
-
-Maintainability
-Code should follow clean architecture principles.
-
-Security
-Passwords shall never be stored in plain text. JWT authentication shall protect private endpoints. HTTPS shall be enforced in production. Input validation shall be implemented.
-
-Reliability
-Application availability target
-99.9%
-
-Usability
-Responsive design.
-Simple navigation.
-Accessible layout.
-
-# 13. Assumptions
-- Users have internet access.
-- PostgreSQL database is available.
-- Modern browsers are supported.
-- Images remain within upload limits.
-
-# 14. Constraints
-Development Time Limited.
-Budget.
-Personal educational project.
-Infrastructure.
-Single database instance.
-Single backend instance.
-
-# 15. Risks
-Risk
-Spam accounts
-Mitigation
-Email verification
-CAPTCHA
-
-Risk
-Large image uploads
-Mitigation
-Image compression
-
-Risk
-Database growth
-Mitigation
-Pagination
-Indexes
-
-Risk
-Security vulnerabilities
-Mitigation
-JWT
-Input validation
-Parameterized queries
-
-Risk
-Unexpected server failures
-Mitigation
-Logging
-Backups
-Monitoring
-
-# 16. Technical Feasibility
-
-Frontend
-React.js provides a modern component-based architecture suitable for responsive web applications.
-
-Backend
-ASP.NET Core enables high-performance REST APIs with strong security support.
-
-Database
-PostgreSQL offers reliability, ACID compliance, indexing, and scalability.
-
-Authentication
-JWT provides stateless authentication suitable for distributed systems.
-
-ORM
-Entity Framework Core simplifies database interaction while maintaining clean code.
-
-
-# 17. Engineering Principles
-
-The project follows the following engineering principles.
-- Clean architecture
-- Separation of concerns
-- Reusable components
-- RESTful API design
-- Secure development
-- Database normalization
-- Code readability
-- Documentation-first development
-- Scalable architecture
-
-# 18. Deliverables
-
-The Discovery Phase produces:
-- Product Vision
-- Problem Definition
-- Business Objectives
-- User Personas
-- Functional Scope
-- Technical Feasibility Assessment
-- Risk Assessment
-- Initial Engineering Strategy
-These deliverables will be used to create the Product Requirements Document (PRD), System Architecture, Database Design, API Specifications, and Development Roadmap.
-
-
-# 19. Conclusion
-
-The discovery phase confirms that Sastagram is technically feasible using the selected technology stack and aligns with modern software engineering practices. The identified requirements, risks, and engineering principles provide a clear foundation for the subsequent design and development phases. By investing time in discovery before implementation, the project reduces ambiguity, improves development efficiency, and establishes a maintainable architecture capable of supporting future enhancements.
-
-# Sastagram
-## Product Blueprint
-
-Version: 1.0
-
-Prepared By:
-Muskan Gill
-
-Technology Stack:
-- React.js
-- ASP.NET Core Web API
-- PostgreSQL
-- Entity Framework Core
-- JWT Authentication
-
-# 1. Introduction
-
-The Product Blueprint defines the complete structure of Sastagram before implementation begins. It translates the product vision into a detailed engineering plan by outlining user journeys, feature modules, business logic, data flow, and technical dependencies.
-This blueprint serves as the foundation for development and ensures every feature is designed with scalability, maintainability, and security in mind.
-
-# 2. Product Vision
-
-Sastagram is a modern social media platform that enables users to create accounts, share posts, interact with content, and manage personal profiles through a secure and scalable web application.
-The platform aims to provide a clean, responsive, and reliable user experience while following enterprise software engineering practices.
-
-# 3. Product Objectives
-
-The primary objectives are:
-- Build a secure authentication system.
-- Enable users to create and manage posts.
-- Provide responsive user interfaces.
-- Maintain a scalable backend architecture.
-- Ensure clean API communication.
-- Support future feature expansion.
-
-# 4. Product Modules
-
-The system is divided into independent modules.
-## Module 1 – Authentication
-Purpose - Provide secure access to the application.
-Features
-- User Registration
-- User Login
-- Password Hashing
-- JWT Authentication
-- Logout
-- Session Validation
-Dependencies
-- User Database
-- Authentication Service
-- JWT Middleware
-Priority - High
-
-
-## Module 2 – User Profile
-Purpose - Allow users to manage their identity.
-Features
-- View Profile
-- Edit Profile
-- Upload Profile Picture
-- Update Personal Information
-Dependencies
-- Authentication
-- Database
-- File Storage
-Priority - High
-
-## Module 3 – Posts
-Purpose - Allow users to share content.
-Features
-- Create Post
-- Edit Post
-- Delete Post
-- View Posts
-- Upload Images
-Dependencies
-- Authentication
-- Database
-- Image Storage
-Priority - High
-
-## Module 4 – Feed
-Purpose - Display content from users.
-Features
-- View Recent Posts
-- Chronological Feed
-- Responsive Layout
-- Infinite Scrolling (Future)
-Dependencies
-- Posts
-- Database
-Priority - High
-
-## Module 5 – Search (Future)
-Purpose- Allow users to search content.
-Features
-- Search Users
-- Search Posts
-- Search Hashtags
-Priority - Medium
-
-## Module 6 – Notifications (Future)
-Purpose - Notify users about platform activity.
-Features
-- Likes
-- Comments
-- Follow Requests
-- System Notifications
-Priority - Medium
-
-## Module 7 – Messaging (Future)
-Purpose - Private communication.
-Features
-- Direct Messages
-- Read Status
-- Attachments
-Priority - Low
-
-# 5. User Journey
-
-## New User
-Visit Website
-↓
-Register
-↓
-Create Account
-↓
-Login
-↓
-Complete Profile
-↓
-View Feed
-↓
-Create First Post
-↓
-Interact With Content
-
-
-## Returning User
-Open Website
-↓
-Login
-↓
-JWT Validation
-↓
-View Feed
-↓
-Create or Manage Posts
-↓
-Logout
-
-# 6. Core Business Logic
-### Registration
-1. User enters details.
-2. Input validation occurs.
-3. Password is hashed.
-4. User record is created.
-5. Registration succeeds.
-
-### Login
-1. User submits credentials.
-2. Credentials validated.
-3. Password verified.
-4. JWT generated.
-5. Token returned.
-6. User authenticated.
-
-### Creating a Post
-1. User writes content.
-2. Optional image selected.
-3. Validation performed.
-4. Image uploaded.
-5. Post saved.
-6. Feed updated.
-
-### Editing a Post
-1. User selects post.
-2. Ownership verified.
-3. Changes submitted.
-4. Database updated.
-5. Feed refreshed.
-
-### Deleting a Post
-1. User selects post.
-2. Ownership verified.
-3. Confirmation requested.
-4. Post removed.
-5. Feed updated.
-
-# 7. Feature Prioritisation
-
-## Phase 1 
-- User Registration
-- Login
-- Authentication
-- User Profiles
-- Create Posts
-- Edit Posts
-- Delete Posts
-- View Feed
-- Responsive Design
-
-## Phase 2
-- Likes
-- Comments
-- Search
-- Notifications
-- Profile Improvements
-
-## Phase 3
-- Messaging
-- Stories
-- Video Uploads
-- Saved Posts
-- User Following
-
-## Phase 4
-- AI Recommendations
-- Mobile App
-- Live Streaming
-- Analytics Dashboard
-
-# 8. User Flow Validation
-
-### Register
-Landing Page
-↓
-Register
-↓
-Validation
-↓
-Database
-↓
-Success
-↓
-Login
-
-
-### Login
-Login
-↓
-Authentication
-↓
-JWT Token
-↓
-Dashboard
-
-### Create Post
-Feed
-↓
-Create Post
-↓
-Validation
-↓
-Database
-↓
-Feed Refresh
-
-### Update Profile
-Profile
-↓
-Edit
-↓
-Validation
-↓
-Save
-↓
-Success
-
-# 9. Technical Dependencies
-
-Frontend
-- React.js
-- React Router
-- Axios
-
-Backend
-- ASP.NET Core Web API
-- Entity Framework Core
-- JWT Authentication
-
-Database
-- PostgreSQL
-
-Development
-- Git
-- GitHub
-- Visual Studio
-- VS Code
-
-# 10. Data Flow Overview
+```text
 User
-↓
-React Frontend
-↓
-REST API
-↓
-Business Logic
-↓
-Entity Framework Core
-↓
-PostgreSQL Database
-↓
-Response
-↓
-Frontend Update
+  |
+  v
+React Frontend (Vite)
+  |
+  | HTTP requests
+  v
+ASP.NET Core Backend
+  |
+  +--> Controllers
+  |
+  +--> Services
+  |
+  +--> Entity Framework Core
+             |
+             v
+        PostgreSQL
+```
 
-# 11. Error Handling Strategy
+The frontend manages the user interface, the backend handles HTTP requests and application processing, and PostgreSQL stores persistent application data.
 
-Validation Errors
-Displayed immediately to users.
+Not every request necessarily passes through every component. The precise flow depends on the endpoint being used.
 
-Authentication Errors
-Return HTTP 401 Unauthorized.
+For a more detailed explanation, see [Architecture Documentation](docs/architecture.md).
 
-Authorization Errors
-Return HTTP 403 Forbidden.
+## Project Structure
 
-Server Errors
-Return HTTP 500 Internal Server Error.
+```text
+Sastagram/
+├── README.md
+├── Sastagram.sln
+├── docs/
+│   ├── installation.md
+│   ├── api-reference.md
+│   ├── architecture.md
+│   └── troubleshooting.md
+├── backend/
+│   └── Sastagram/
+│       ├── Controllers/
+│       │   ├── AuthController.cs
+│       │   ├── CommentsStoriesNotificationsController.cs
+│       │   ├── PostsController.cs
+│       │   └── UsersController.cs
+│       ├── Data/
+│       │   └── ApplicationDbContext.cs
+│       ├── DTOs/
+│       │   └── Dtos.cs
+│       ├── Migrations/
+│       ├── Models/
+│       ├── Properties/
+│       ├── Services/
+│       │   ├── MediaService.cs
+│       │   └── TokenService.cs
+│       ├── Program.cs
+│       ├── appsettings.json
+│       └── Sastagram.csproj
+└── frontend/
+    └── Sastagram/
+        ├── src/
+        │   ├── components/
+        │   ├── pages/
+        │   ├── services/
+        │   └── store/
+        ├── README.md
+        ├── package.json
+        └── vite.config.js
+```
 
-Network Errors
-Display friendly retry message.
+This is a simplified representation of the repository; additional files and folders may exist.
 
-# 12. Security Blueprint
+## Getting Started
 
-Authentication
-JWT Tokens
-Password Security
-BCrypt Password Hashing
+Follow the installation guide for complete setup instructions, configuration requirements, database preparation, and troubleshooting.
 
-Authorization
-Protected API Endpoints
-Input Validation
-Server-side Validation
+### Prerequisites
 
-Database Security
-Parameterized Queries through Entity Framework
-Transport Security
-HTTPS in Production
+Before running the project, ensure you have:
 
-# 13. Performance Strategy
+- Git
+- Visual Studio Code or another compatible editor
+- A .NET SDK compatible with the backend target framework
+- Node.js and npm compatible with the frontend dependencies
+- PostgreSQL
 
-Database Indexing
-Primary Keys
-Foreign Keys
-Optimised Queries
-Pagination
-Lazy Loading (where appropriate)
-Efficient API Responses
-Compressed Images
-Client-side Caching
+### 1. Clone the repository
 
-# 14. Scalability Blueprint
+Replace the repository URL below with the HTTPS URL from your GitHub repository.
 
-Current Architecture
-Single Web Server
-Single Database
-Future Expansion
-Load Balancer
-↓
-Multiple API Servers
-↓
-Redis Cache
-↓
-PostgreSQL Read Replicas
-↓
-Object Storage
-↓
-CDN
-↓
-Microservices
+```bash
+git clone <repository-url>
+cd Sastagram
+```
 
-# 15. Engineering Standards
+### 2. Configure the backend
 
-The project follows the following standards:
-- Layered Architecture
-- Separation of Concerns
-- RESTful API Design
-- SOLID Principles
-- Secure Coding Practices
-- Consistent Naming Conventions
-- Reusable Components
-- API Versioning (Future)
-- Documentation-First Development
+Open a terminal in the backend project directory:
 
-# 16. Development Milestones
+```bash
+cd backend/Sastagram
+```
 
-Milestone 1
-Project Setup
-Completed
+Restore dependencies and build the project:
 
-Milestone 2
-Authentication Module
-Completed
+```bash
+dotnet restore
+dotnet build
+```
 
-Milestone 3
-Profile Management
-Completed
+Configure the database connection and other required application settings before starting the backend.
 
-Milestone 4
-Post Management
-Completed
+### 3. Prepare the database
 
-Milestone 5
-Frontend Integration
-Completed
+Ensure PostgreSQL is running and the configured database exists.
 
-Milestone 6
-Testing
-In Progress
+If the project uses Entity Framework Core migrations to initialise the database schema, run the following from the backend project directory:
 
-Milestone 7
-Deployment
-Planned
+```bash
+dotnet ef database update
+```
 
-# 17. Expected Outcomes
+This command requires compatible Entity Framework Core tooling and a valid database configuration.
 
-Upon completion, Sastagram will provide:
-- Secure user authentication
-- Reliable post management
-- Responsive user experience
-- Clean backend architecture
-- Scalable database design
-- Well-documented REST APIs
-- Maintainable source code
-- Foundation for future enhancements
+### 4. Start the backend
 
-# 18. Blueprint Approval Checklist
+From `backend/Sastagram/`, run:
 
-✓ Product goals defined
-✓ Core features identified
-✓ User journeys mapped
-✓ Business logic documented
-✓ Technical dependencies identified
-✓ Security approach established
-✓ Performance strategy outlined
-✓ Scalability considered
-✓ Development milestones defined
+```bash
+dotnet run
+```
 
-# 19. Conclusion
+Use the URL printed in the terminal to identify the backend address and port.
 
-This Product Blueprint provides a complete engineering plan for the implementation of Sastagram. By defining product modules, user journeys, business logic, system dependencies, security considerations, and scalability strategies before development begins, the project reduces implementation risks and establishes a clear roadmap for building a maintainable, production-ready application. The blueprint serves as the reference document for the Product Requirements Document (PRD), system architecture, API design, database design, and development activities.
+### 5. Start the frontend
+
+Open a second terminal and navigate to the frontend project:
+
+```bash
+cd frontend/Sastagram
+```
+
+Install the frontend dependencies and start Vite:
+
+```bash
+npm install
+npm run dev
+```
+
+Open the local URL displayed in the terminal.
+
+**Important:** The backend and frontend must be configured to communicate with each other. Check the Vite proxy configuration and backend launch settings if API requests fail.
+
+For the complete instructions, see [Installation Guide](docs/installation.md).
+
+## Configuration
+
+Sastagram may require environment-specific configuration for database access, authentication, and media handling.
+
+Before running the application, verify the required settings in the backend configuration and service implementations.
+
+Typical configuration areas include:
+
+| Configuration area | Purpose |
+|---|---|
+| Database connection | Connects the backend to PostgreSQL |
+| JWT settings | Configures token-related functionality |
+| Media-service settings | Configures media-related integrations, if required |
+| Frontend API configuration | Determines how frontend requests reach the backend |
+
+The exact configuration keys depend on the implementation.
+
+Do not commit real passwords, JWT signing keys, API keys, or other sensitive credentials to GitHub. Use an appropriate local or environment-specific secret-management mechanism.
+
+## API Documentation
+
+The backend exposes API endpoints through ASP.NET Core controllers.
+
+See the [API Reference](docs/api-reference.md) for endpoint documentation, request conventions, authentication information, and response details.
+
+The endpoint reference should be kept aligned with the actual controller routes, DTOs, and runtime behaviour.
+
+## Testing
+
+When validating a local setup, use the following basic checklist:
+
+- [ ] The backend restores and builds successfully.
+- [ ] The backend starts without configuration errors.
+- [ ] PostgreSQL is reachable using the configured connection.
+- [ ] Required database migrations have been applied.
+- [ ] The frontend starts successfully.
+- [ ] The frontend can reach the backend.
+- [ ] Authentication-related flows behave as expected.
+- [ ] API responses and error handling have been checked.
+
+These are recommended verification steps, not a claim that an automated test suite is currently included.
+
+## Security Considerations
+
+When developing or deploying Sastagram:
+
+- Keep credentials and signing keys out of source control.
+- Validate request data on the backend.
+- Verify authentication and authorization requirements for individual endpoints.
+- Avoid exposing passwords, tokens, or other sensitive data in logs.
+- Review database permissions and production configuration.
+- Verify media-upload validation and access controls if media uploads are supported.
+- Test access restrictions instead of assuming that authentication alone provides authorization.
+
+Security behaviour should be confirmed against the current implementation before making claims about the application's protections.
+
+## Troubleshooting
+
+For common setup and runtime problems, see the [Troubleshooting Guide](docs/troubleshooting.md).
+
+Common areas to investigate include:
+
+- .NET SDK and target framework compatibility
+- PostgreSQL connection failures
+- Entity Framework Core migration errors
+- Frontend dependency installation
+- Backend port conflicts
+- Frontend-to-backend connectivity
+- Authentication and API response errors
+
+When reporting an issue, include the relevant error message and reproduction steps. Remove credentials and tokens from logs before sharing them.
+
+## Future Improvements
+
+Potential areas for further development include:
+
+- Expanding automated backend and frontend tests.
+- Documenting verified database relationships with an entity-relationship diagram.
+- Adding or documenting an OpenAPI/Swagger specification, if supported.
+- Improving consistency in API error responses.
+- Reviewing authentication and authorization coverage.
+- Documenting deployment and production configuration.
+- Adding continuous integration checks for builds and tests.
+
+These are potential improvements rather than features guaranteed to be implemented.
+
+## Author
+
+**Muskan Gill**
+
+Software Engineering student interested in full-stack development, backend engineering, and technical documentation.
+
+GitHub: [muskangillpvt](https://github.com/muskangillpvt)
+
+## License
+
+No license information is specified in this document. Add a license section once the repository's intended licensing terms have been chosen and a corresponding license file has been added if required.
